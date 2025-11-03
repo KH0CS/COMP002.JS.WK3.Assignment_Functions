@@ -10,9 +10,11 @@ console.log(Math.min(0, -10));
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
 // Example Output:
 // console.log(calculateCircumference(5)); // will output 31.4
-function calcCircurference(circumference) {
+function calcCircurference(radius) {
   const pi = 3.14;
-  console.log(2 * pi * radius);
+  const circumference = 2 * pi * radius;
+  return circumference;
+  
 
 }
 
